@@ -1,0 +1,309 @@
+/* Reset CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+
+body{
+    /* border: 1px solid red; */
+    width:80%;
+    height: 100vh;
+   margin: 5px auto;
+   font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    /* color: #5dade2; */
+    color: #2980b9 ;  
+  
+  padding: 5px;
+  font-size: 13px;
+}
+#header-section #header-links a{
+/* border-left: 1px solid #2980b9 ; */
+margin-right: 5px;
+
+/* margin-right: 5px; */
+/* padding-right: 5px; */
+font-weight: bold;
+
+}
+
+#header-section #header-links #home-text{
+    border-left: none;
+}
+
+#header-section{
+width: 90%;
+height: 6%;
+/* border: 1px solid blue; */
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+#blue-line{
+    /* width: 70%;
+    height: 5%; */
+    border-bottom: 5px solid#5dade2 ;
+}
+
+#million-professionals-container .stay-informed ,#million-professionals-container .find-the-people ,
+#million-professionals-container .control{
+color:#979a9a  ;
+font-weight: bold;
+/* display: flex; */
+
+}
+
+#million-professionals-container .stay-informed img{
+    vertical-align: middle;
+}
+#million-professionals-container .control img{
+    vertical-align: middle;
+}
+#million-professionals-container .find-the-people img{
+    vertical-align: middle;
+}
+
+#million-professionals-container h3{
+    color: #5dade2 ;
+    word-spacing: 2px;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+#main-container{
+height: 60%;
+width: 100%;
+border: 1px solid #e5e7e9 ;
+background-color:  #e5e7e9 ;
+border-bottom: 5px solid #979a9a ;
+/* margin-bottom: 5px; */
+}
+
+#main-content.bg-color-white{
+width: 90%;
+height: 70%;
+background-color: #fff;
+ margin: 0px auto; 
+ margin-top: 20px;
+ display: flex;
+ border: 1px solid #cacfd2 ;
+ border-bottom: none;
+}
+
+#million-professionals-container{
+/* border: 1px solid grey; */
+height: 90%;
+width: 60%;
+padding: 10px;
+}
+
+
+#join-linkedin-today{
+border: 1px solid #cacfd2;
+/* height: 20px;
+width: 50px; */
+height: 75%;
+width: 35%;
+border-radius: 8px;
+margin-top: 2%;
+/* padding: 0 10px; */
+
+}
+
+#join-linkedin-today p.join-linkedIn{
+    background-color: #85c1e9 ;
+    /* padding: 3px 10px; */
+    /* border-radius: ; */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+margin-bottom: 10px;
+padding-left: 10px;
+padding-bottom: 10px;
+padding-top: 5px;
+width: 46vh;
+
+}
+
+#join-linkedin-today form label  {
+margin-left: 10px;
+color: #7b7d7d;
+font-weight: bold;
+font-size: 15px;
+}
+
+#join-linkedin-today form input{
+margin-bottom: 15px;
+    margin-left: 15px;
+    width: 200px;
+    height: 23px;
+}
+
+#join-linkedin-today form p{
+text-align: center;
+
+}
+
+#join-linkedin-today form input[type="button" ]{
+    margin-left: 110px;
+font-size: 16px;
+}
+/* #join-linkedin-today input{
+ display: inline-block; 
+} */
+
+
+ #hr-divider{
+    border-bottom: 5px solid lightcoral;
+    width: 50%;
+} 
+#search-for-someone{
+/* border: 1px solid gold; */
+border-left: 1px solid  #cacfd2 ;
+border-right: 1px solid  #cacfd2 ;
+border-top: 1px solid  #cacfd2 ;;
+width: 90%;
+height: 40px;
+background-color: white;
+margin: 0 auto;
+padding-bottom: 30px;
+padding-top: 20px;
+/* text-align: center; */
+
+}
+
+/* #filler{
+width: 90%;
+height: 5px;
+background-color: red;
+margin: 0 auto;
+height: 5%;
+
+} */
+#search-for-someone input[name="search"]{
+    margin-left: 30px;
+    margin-right: 10px;
+    padding: 5px;
+  
+}
+
+#search-for-someone input[type="submit" ]{
+
+margin-left: 30px;
+padding: 5px;
+width: 40px;
+}
+
+
+
+label[for="search"]{
+    color:grey;
+    font-weight: bold;
+    margin-left: 75px;
+    margin-right: 20px;
+
+}
+
+
+#people-directory{
+    /* border: 1px solid aqua; */
+    width:90%;
+    height: 55px;
+    background-color: white;
+    margin: 0 auto;
+    /* margin-left: 20px; */
+    /* text-align: center; */
+    border-left: 1px solid  #cacfd2 ;
+border-right: 1px solid  #cacfd2 ;
+border-bottom: 1px solid  #cacfd2 ;
+padding-top: 15px;
+}
+
+
+#people-directory #people-directory-text{
+color:#979a9a  ;
+font-weight: bold;
+font-size: 14px;
+}
+
+/* #people-directory #people-directory-text a{
+font-size: 14px;
+
+} */
+
+
+#bottom-section{
+width: 100%;
+height: 25%;
+background-color: #f2f3f4 ;
+
+
+}
+#bottom-section .company{
+width: 90%;
+height: 30px;
+/* background-color: aqua; */
+margin: 0 auto;
+padding-top: 10px;
+
+}
+#bottom-section .tools{
+width: 90%;
+height: 30px;
+/* background-color:yellow; */
+margin: 0 auto;
+padding-top: 10px;
+}
+#bottom-section .products{
+width: 90%;
+height: 30px;
+padding-top: 10px;
+/* background-color: green; */
+margin: 0 auto;
+}
+#bottom-section .copyright{
+    width: 90%;
+height: 30px;
+/* background-color: red; */
+margin: 0 auto;
+padding-top: 10px;
+}
+#bottom-section .terms-of-use{
+    width: 90%;
+height: 35px;
+/* background-color: pink; */
+margin: 0 auto;
+padding-top: 10px;
+}
+
+#bottom-section .company .company-text,
+#bottom-section .tools .tools-text,
+
+#bottom-section .products .products-text
+
+
+{
+color: #7b7d7d  ;
+font-weight: bold;
+margin-right: 30px;
+}
+#bottom-section .copyright .linkedIn-corporation{
+font-size: 13px;
+color: #7b7d7d  ;
+font-weight: bold;
+}
+#bottom-section .terms-of-use p{
+    font-size: 13px;
+color: #7b7d7d  ;
+font-weight: bold;
+}
+#bottom-section .customer-service{
+    font-weight: bold;
+}
+

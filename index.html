@@ -1,0 +1,191 @@
+<!-- To d0:
+Indent your code
+Validate your HTML
+Write clear IDs and Classes
+Avoid using Float and position absolute.
+Replicate the image below using HTML and CSS  -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <header id="header-section">
+        <div id="linkedin-img">
+            <img src="./Linkedin-Challenge/logo.png" alt="linkedin-img" height="50">
+        </div>
+        <div id="header-links">
+            <a id="home-text" href="#">Home</a>
+             <span style="color: grey;">|</span> 
+            <a href="#">What is LinkedIn?</a>
+             <span style="color: grey;">|</span>
+            <a href="#">Join Today</a>
+             <span style="color: grey;">|</span> 
+            <a href="#">Sign In</a>
+        </div>
+
+    </header>
+    <!-- END OF HEADER SECTION -->
+
+    <div id="blue-line"></div>
+
+    <div id="main-container" class="bg-color-grey">
+
+        <div id="main-content" class="bg-color-white">
+
+            <div id="million-professionals-container" class="left-flex-container">
+                <h3>Over 24 million professionals use Linkedin to <br>
+                     exchange information, ideas and opportunities</h3>
+                <div class="stay-informed">
+                    <img src="./Linkedin-Challenge/chats.png" alt="chat" width="80">
+                    <span id="stay-informed-text">Stay informed about your contacts and identity</span>
+                </div>
+
+                <div class="find-the-people">
+                    <img src="./Linkedin-Challenge/users.png" alt="QA" width="80">
+                    <span id="find-the-people-text">Find the people & knowledge you need to achieve your goals</span>
+                </div>
+                <div class="control">
+                    <img src="./Linkedin-Challenge/bag.png" alt="bag" width="80">
+                    <span id="control-text">Control your prossional identity online</span>
+                </div>
+
+            </div>
+            <!-- Join LinkedIn Today -->
+
+            <div id="join-linkedin-today" class="right-flex-conyainer">
+
+                <p class="join-linkedIn">Join LinkedIn Today</p>
+                <form>
+                    <label for="firstname">First Name:</label>
+                    <input type="text" name="firstname" id="firstname"><br>
+
+                    <label  for="lastname">Last Name:</label>
+                    <input  name="lastname" id="lastname"><br>
+
+                    <label for="email">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email:</label>
+                    <input type="email" name="email" id="email"><br>
+                    <input style="background-color:#58d68d ; border: none; width: 100px; height: 30px;  color: white;" type="button" value="Continue">
+
+                    <p style="font-size: 14px; color:#7b7d7d  ; font-weight: bold; margin-left: 71px;">Already on linkedIn?<a href="#">Sign in</a></p>
+
+
+
+
+
+                </form>
+
+            </div>
+
+
+        </div>
+        <!-- <hr style="width: 80%; margin-top: 0 auto;"> -->
+        <!-- <div id="filler"></div> -->
+        <!-- either a div or hr -->
+        <!-- <div id="hr-divider"></div>   -->
+        <!-- Search for someone section -->
+        <div id="search-for-someone">
+            <label for="search">Search for someone by name:</label>
+            <input type="text" name="search" id="search" placeholder="First Name">
+            <input type="text" name="search" id="someone" placeholder="Last Name">
+            <input type="submit" value="Go">
+
+        </div>
+
+
+        <div id="people-directory">
+            <span id="people-directory-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; People directory:</span>
+            <a href="#">A</a>
+            <a href="#">B</a>
+            <a href="#">C</a>
+            <a href="#">D</a>
+            <a href="#">E</a>
+            <a href="#">F</a>
+            <a href="#">G</a>
+            <a href="#">H</a>
+            <a href="#">I</a>
+            <a href="#">J</a>
+            <a href="#">K</a>
+            <a href="#">L</a>
+            <a href="#">M</a>
+            <a href="#">N</a>
+            <a href="#">O</a>
+            <a href="#">P</a>
+            <a href="#">Q</a>
+            <a href="#">R</a>
+            <a href="#">S</a>
+            <a href="#">T</a>
+            <a href="#">U</a>
+            <a href="#">V</a>
+            <a href="#">W</a>
+            <a href="#">X</a>
+            <a href="#">Y</a>
+            <a href="#">Z</a>
+            <a href="#">more</a>
+
+
+        </div>
+
+    </div>
+
+    <footer id="bottom-section">
+
+        <div class="company">
+            <span class="company-text"> Company</span>
+            <span class="customer-service"><a href="#">Customer service</a> </span>
+            <span class="about-linkedIn" style="color: grey;">| <a href="#">About LinkedIn</a> </span>
+            <span class="Team" style="color: grey;">| <a href="#">Team</a> </span>
+            <span class="blog" style="color: grey;">| <a href="#">Blog</a> </span>
+            <span class="store" style="color: grey;">| <a href="#">Store</a> </span>
+            <span class="advertise-with-us" style="color: grey;">| <a href="#">Advertise With Us</a> </span>
+            <span class="work-with-us" style="color: grey;">| <a href="#">Work With Us</a> </span>
+
+
+        </div>
+        <div class="tools">
+            <span class="tools-text"> Tools</span>
+            <span class="overview" style="color: grey;"> <a href="#">Overview</a> </span>
+            <span class="outlook-toolbar" style="color: grey;">| <a href="#">Outlook Toolbar</a> </span>
+            <span class="browser-toolbar" style="color: grey;">| <a href="#">Browser Toolbar</a> </span>
+            <span class="jobsinsider" style="color: grey;">| <a href="#">JobsInsider</a> </span>
+            <span class="widgets" style="color: grey;">| <a href="#">Widgets</a> </span>
+
+
+        </div>
+        <div class="products">
+            <span class="products-text"> Products</span>
+            <span class="linkedIn-answers"> <a href="#">LinkedIn Answers</a> </span>
+            <span class="linkedIn-jobs" style="color: grey;">| <a href="#">LinkedIn Jobs</a> </span>
+            <span class="linkedIn-updates" style="color: grey;">| <a href="#">LinkedIn Updates</a> </span>
+
+        </div>
+
+
+        <div class="copyright">
+            <span class="linkedIn-corporation"> LinkedIn Corporation &copy;2008</span>
+            <span class="user-agreement" style="color: grey;">| <a href="#">User agreements</a> </span>
+            <span class="privacy" style="color: grey;">| <a href="#">Privacy Policy</a> </span>
+            <span class="copyright-policy" style="color: grey;">| <a href="#">Copyright Policy</a> </span>
+
+        </div>
+
+        <div class="terms-of-use">
+            <p class="terms of use">
+                Use of this site is subject to express<a href="#">terms of use</a>, which prohibits commercial use of
+                this site. By continuing past this page, you agree to abide by these terms.
+            </p>
+        </div>
+
+
+    </footer>
+
+</body>
+
+</html>
